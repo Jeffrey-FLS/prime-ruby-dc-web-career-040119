@@ -5,7 +5,7 @@ def prime?(num)
   numSquared = num ** 2
   
   if num % numSquared == 0
-    isPrime = false
+    return false
   end
   
   return isPrime
